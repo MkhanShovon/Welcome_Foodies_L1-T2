@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="516.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.SearchedTable">
+   <children>
+      <TableView fx:id="foodTableView" prefHeight="514.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="resIdColumn" prefWidth="86.39996337890625" text="Restaurant Id" />
+            <TableColumn fx:id="foodColumn" prefWidth="158.39996337890625" text="Food Name" />
+            <TableColumn fx:id="priceColumn" prefWidth="100.0" text="Price" />
+          <TableColumn fx:id="categoryColumn" prefWidth="156.0" text="Food Category" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
